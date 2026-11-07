@@ -1,13 +1,6 @@
-package com.flessak.estoque_fios.controller;
+package com.nahanm.wirecontrol.controller;
 // package = pacote/pasta onde fica o código
 // controller = pasta dos controladores (recebem requisições HTTP)
-
-import com.flessak.estoque_fios.model.Fio;
-// import = importar/trazer
-// traz a classe Fio (entidade do banco)
-
-import com.flessak.estoque_fios.service.FioService;
-// traz o serviço (lógica de negócio)
 
 import org.springframework.beans.factory.annotation.Autowired;
 // traz @Autowired (injeção de dependência automática)
@@ -22,6 +15,9 @@ import org.springframework.web.bind.annotation.*;
 // * = importa TODAS as anotações REST:
 // @RestController, @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PatchMapping
 // @PathVariable, @RequestBody, @RequestParam, @RequestMapping, @CrossOrigin
+
+import com.nahanm.wirecontrol.model.Fio;
+import com.nahanm.wirecontrol.service.FioService;
 
 import java.util.List;
 // List = interface de lista (coleção ordenada de objetos)
@@ -133,7 +129,7 @@ public class FioController {
     // CRIAR NOVO FIO
     // ========================================
 
-    @PostMapping (value = "novo")
+    @PostMapping
     // @PostMapping = mapeia requisições HTTP POST
     // POST /api/fios
     // POST = usado pra CRIAR novos recursos

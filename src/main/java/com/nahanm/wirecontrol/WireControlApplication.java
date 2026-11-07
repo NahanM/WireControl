@@ -1,11 +1,11 @@
-package com.flessak.estoque_fios;
+package com.nahanm.wirecontrol;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EstoqueFiosApplication {
+public class WireControlApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(EstoqueFiosApplication.class, args);
+		SpringApplication.run(WireControlApplication.class, args);
 	}
 }

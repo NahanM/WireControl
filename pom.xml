@@ -33,20 +33,20 @@
 		<!-- vazio = busca no repositório Maven, não localmente -->
 	</parent>
 
-	<groupId>com.flessak</groupId>
+	<groupId>com.nahanm</groupId>
 	<!-- groupId do SEU projeto -->
-	<!-- com.flessak = seu domínio/organização (padrão reverso) -->
+	<!-- com.nahanm = seu domínio/organização (padrão reverso) -->
 
-	<artifactId>estoque-fios</artifactId>
+	<artifactId>wirecontrol</artifactId>
 	<!-- artifactId do SEU projeto -->
-	<!-- estoque-fios = nome do projeto -->
+	<!-- wirecontrol = nome do projeto -->
 
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- version do SEU projeto -->
 	<!-- 0.0.1 = primeira versão -->
 	<!-- SNAPSHOT = versão em desenvolvimento (não final) -->
 
-	<name>estoque-fios</name>
+	<name>wirecontrol</name>
 	<!-- name = nome legível do projeto -->
 
 	<description>Gerenciamento para Estoque de Fios</description>
@@ -166,7 +166,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<!-- spring-boot-maven-plugin = cria JAR executável -->
-				<!-- permite rodar: java -jar estoque-fios.jar -->
+				<!-- permite rodar: java -jar wirecontrol.jar -->
 
 				<configuration>
 					<excludes>

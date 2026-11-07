@@ -1,10 +1,6 @@
-package com.flessak.estoque_fios.repository;
+package com.nahanm.wirecontrol.repository;
 // package = pacote/pasta onde fica o código
 // repository = pasta específica pra classes de acesso ao banco
-
-import com.flessak.estoque_fios.model.Fio;
-// import = importar/trazer
-// com.flessak.estoque_fios.model.Fio = traz a classe Fio que você criou
 
 import org.springframework.data.jpa.repository.JpaRepository;
 // org.springframework = biblioteca do Spring Framework
@@ -14,6 +10,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 // stereotype = estereótipo/tipo de componente
 // Repository = anotação que marca "isso é um repositório"
+
+import com.nahanm.wirecontrol.model.Fio;
 
 import java.util.Optional;
 // java.util = pacote utilitário do Java

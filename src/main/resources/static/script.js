@@ -1,7 +1,6 @@
 // ===== CONFIGURAÇÃO DA API =====
 // URL base da API REST do Spring Boot
-const API_URL = 'http://localhost:8080/api/fios';
-// localhost = este computador | 8080 = porta | /api/fios = endpoint
+const API_URL = '/api/fios';
 
 // ===== ELEMENTOS DO DOM =====
 // DOM = Document Object Model (estrutura HTML que JS manipula)

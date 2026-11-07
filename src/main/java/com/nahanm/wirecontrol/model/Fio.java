@@ -1,4 +1,4 @@
-package com.flessak.estoque_fios.model;
+package com.nahanm.wirecontrol.model;
 // package = "pacote", organiza as classes do projeto em pastas/grupos
 // com.flessak.estoque_fios.model = caminho/endereço onde essa classe fica
 

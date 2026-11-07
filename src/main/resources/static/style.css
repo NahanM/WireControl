@@ -7,7 +7,7 @@
 /* :root = define variáveis CSS globais (podem ser usadas em qualquer lugar) */
 /* var(--nome) = usa a variável */
 :root {
-    /* Cores primárias (vermelho Flessak) */
+    /* Cores primárias (vermelho) */
     --primary: #E32119;
     --primary-hover: #c01d15; /* Tom mais escuro pro hover */
     --primary-light: #fee2e2; /* Tom clarinho pra sombras/fundos */

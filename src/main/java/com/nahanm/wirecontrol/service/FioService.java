@@ -1,19 +1,15 @@
-package com.flessak.estoque_fios.service;
+package com.nahanm.wirecontrol.service;
 // package → palavra-chave que define em qual "pasta lógica" do projeto essa classe vive.
 // com.flessak.estoque_fios.service → caminho/namespace. Ajuda o Java a localizar a classe.
-
-import com.flessak.estoque_fios.model.Fio;
-// import → traz uma classe de outro lugar para usar aqui.
-// com.flessak...Fio → caminho completo da classe Fio.
-
-import com.flessak.estoque_fios.repository.FioRepository;
-// importa o repositório para podermos falar com o banco via JPA.
 
 import org.springframework.beans.factory.annotation.Autowired;
 // importa a anotação @Autowired, que permite o Spring "injetar" dependências.
 
 import org.springframework.stereotype.Service;
 // importa a anotação @Service, que marca essa classe como camada de serviço.
+
+import com.nahanm.wirecontrol.model.Fio;
+import com.nahanm.wirecontrol.repository.FioRepository;
 
 import java.util.List;
 // importa a interface List (coleção ordenada).
