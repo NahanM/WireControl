@@ -1,0 +1,14 @@
+.git
+.gitignore
+.gitattributes
+.classpath
+.factorypath
+.project
+.settings
+target
+.env
+.env.*
+!.env.example
+CLAUDE.md
+README.md
+HELP.md
