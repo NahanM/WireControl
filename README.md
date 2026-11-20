@@ -72,7 +72,8 @@ Exemplo de corpo (POST/PUT):
 Como as peças se conectam e o que cada pasta faz: [docs/arquitetura.md](docs/arquitetura.md).
 
 ## Limitações conhecidas
-- **Sem login:** qualquer pessoa com o link pode cadastrar, editar e excluir. É um projeto de demonstração.
+- **Sem login:** o usuário "Admin" no canto da tela é só visual. Qualquer pessoa com o link pode cadastrar, editar e excluir.
+- **Menus Relatórios e Configurações:** aparecem na tela, mas não foram implementados.
 - **Servidor gratuito:** dorme depois de 15 minutos sem uso, e o primeiro acesso demora.
 - **Sem busca por descrição:** só por ID e por código.
 - **Sem testes automatizados.**
