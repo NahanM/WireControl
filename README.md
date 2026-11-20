@@ -8,6 +8,18 @@ Sistema web de controle de estoque de fios elétricos: cadastrar, consultar, edi
 
 ![Tela do WireControl](docs/tela.png)
 
+## Sobre este projeto
+Este é um projeto antigo, de outubro de 2025, feito quando eu estava aprendendo Java e Spring.
+Em novembro de 2026 eu voltei nele só para colocar Docker e publicar online.
+
+Nessa volta, mexi apenas no necessário para isso:
+- Dockerfile, Docker Compose e deploy (Render + Neon)
+- Correções que impediam o funcionamento: rota de cadastro, senha fora do código, configuração de CORS
+- Renomear o pacote e mover o front para dentro da aplicação
+
+O resto ficou como eu tinha feito, de propósito, incluindo os comentários linha a linha no código.
+Eles mostram como eu estudava na época, e servem para comparar com o que faço hoje.
+
 ## Funcionalidades
 - Cadastro de fios com código único, descrição, bitola e quantidade
 - Listagem e busca por ID ou código
