@@ -7,12 +7,6 @@ Sistema web de controle de estoque de fios elétricos: cadastrar, consultar, edi
 > ⏳ O servidor é gratuito e dorme depois de 15 minutos sem uso. O primeiro acesso pode levar até 2 minutos. Depois disso, fica rápido.
 
 ![Tela do WireControl](docs/tela.png)
-> ⏳ O servidor é gratuito e dorme depois de 15 minutos sem uso. O primeiro acesso pode levar até 2 minutos. Depois disso, fica rápido.
-
-![Tela do WireControl](docs/tela.png)
-> ⏳ O servidor é gratuito e dorme depois de 15 minutos sem uso. O primeiro acesso pode levar até 2 minutos. Depois disso, fica rápido.
-
-![Tela do WireControl](docs/tela.png)
 
 ## Funcionalidades
 - Cadastro de fios com código único, descrição, bitola e quantidade
